@@ -1,0 +1,2009 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 silly mapToRegistry name ionic
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/ionic
+8 silly mapToRegistry name cordova
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/cordova
+12 silly mapToRegistry name ios-sim
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+16 silly mapToRegistry name mean-cli
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/mean-cli
+20 silly mapToRegistry name npm
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/npm
+24 verbose request uri https://registry.npmjs.org/mean-cli
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 9:59:11 PM
+27 verbose request id 20eb07f512f446d1
+28 http request GET https://registry.npmjs.org/mean-cli
+29 verbose request uri https://registry.npmjs.org/ios-sim
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 9:59:11 PM
+32 verbose etag "7ZTP8VD0J74VLPPFIQ85YXZ21"
+33 http request GET https://registry.npmjs.org/ios-sim
+34 verbose request uri https://registry.npmjs.org/ionic
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 9:59:11 PM
+37 verbose etag "7G1FGTUXR5ONSOSPPFM7ZD99A"
+38 http request GET https://registry.npmjs.org/ionic
+39 verbose request uri https://registry.npmjs.org/cordova
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 9:59:11 PM
+42 verbose etag "2ZL0YSCYEWX4GMG2YVYZES1IL"
+43 http request GET https://registry.npmjs.org/cordova
+44 verbose request uri https://registry.npmjs.org/npm
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 9:59:11 PM
+47 verbose etag "ERJBWUUZGATZHZOBGY4CJIKQC"
+48 http request GET https://registry.npmjs.org/npm
+49 http 304 https://registry.npmjs.org/cordova
+50 silly get cb [ 304,
+50 silly get   { date: 'Wed, 13 Jan 2016 20:59:12 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     'cache-control': 'max-age=300',
+50 silly get     etag: '"2ZL0YSCYEWX4GMG2YVYZES1IL"',
+50 silly get     age: '289',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-lcy1133-LCY',
+50 silly get     'x-cache': 'HIT',
+50 silly get     'x-cache-hits': '1',
+50 silly get     'x-timer': 'S1452718752.626818,VS0,VE2',
+50 silly get     vary: 'Accept' } ]
+51 verbose etag https://registry.npmjs.org/cordova from cache
+52 verbose get saving cordova to /Users/wifi/.npm/registry.npmjs.org/cordova/.cache.json
+53 http 304 https://registry.npmjs.org/ionic
+54 silly get cb [ 304,
+54 silly get   { date: 'Wed, 13 Jan 2016 20:59:12 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     etag: '"7G1FGTUXR5ONSOSPPFM7ZD99A"',
+54 silly get     age: '136',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-lcy1120-LCY',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '1',
+54 silly get     'x-timer': 'S1452718752.681178,VS0,VE6',
+54 silly get     vary: 'Accept' } ]
+55 verbose etag https://registry.npmjs.org/ionic from cache
+56 verbose get saving ionic to /Users/wifi/.npm/registry.npmjs.org/ionic/.cache.json
+57 http 304 https://registry.npmjs.org/npm
+58 silly get cb [ 304,
+58 silly get   { date: 'Wed, 13 Jan 2016 20:59:12 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     etag: '"ERJBWUUZGATZHZOBGY4CJIKQC"',
+58 silly get     age: '265',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-lcy1132-LCY',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '2',
+58 silly get     'x-timer': 'S1452718752.761403,VS0,VE0',
+58 silly get     vary: 'Accept' } ]
+59 verbose etag https://registry.npmjs.org/npm from cache
+60 verbose get saving npm to /Users/wifi/.npm/registry.npmjs.org/npm/.cache.json
+61 http 304 https://registry.npmjs.org/ios-sim
+62 silly get cb [ 304,
+62 silly get   { date: 'Wed, 13 Jan 2016 20:59:12 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     'cache-control': 'max-age=300',
+62 silly get     etag: '"7ZTP8VD0J74VLPPFIQ85YXZ21"',
+62 silly get     age: '0',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-lcy1134-LCY',
+62 silly get     'x-cache': 'HIT',
+62 silly get     'x-cache-hits': '1',
+62 silly get     'x-timer': 'S1452718752.711293,VS0,VE168',
+62 silly get     vary: 'Accept' } ]
+63 verbose etag https://registry.npmjs.org/ios-sim from cache
+64 verbose get saving ios-sim to /Users/wifi/.npm/registry.npmjs.org/ios-sim/.cache.json
+65 http 200 https://registry.npmjs.org/mean-cli
+66 silly get cb [ 200,
+66 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+66 silly get     etag: '"BM66DH2IRJ1PWQZGVZVAS2PCC"',
+66 silly get     'content-type': 'application/json',
+66 silly get     'cache-control': 'max-age=300',
+66 silly get     'content-length': '145199',
+66 silly get     'accept-ranges': 'bytes',
+66 silly get     date: 'Wed, 13 Jan 2016 20:59:12 GMT',
+66 silly get     via: '1.1 varnish',
+66 silly get     age: '181',
+66 silly get     connection: 'keep-alive',
+66 silly get     'x-served-by': 'cache-lcy1134-LCY',
+66 silly get     'x-cache': 'HIT',
+66 silly get     'x-cache-hits': '1',
+66 silly get     'x-timer': 'S1452718752.731091,VS0,VE1',
+66 silly get     vary: 'Accept' } ]
+67 verbose get saving mean-cli to /Users/wifi/.npm/registry.npmjs.org/mean-cli/.cache.json
+68 info outdated updating [ [ '/usr/local/lib', 'npm', '2.11.3', '3.5.3', '3.5.3', 'latest' ],
+68 info outdated   [ '/usr/local/lib',
+68 info outdated     'mean-cli',
+68 info outdated     '0.10.14',
+68 info outdated     '0.10.17',
+68 info outdated     '0.10.17',
+68 info outdated     'latest' ] ]
+69 verbose install where, what [ '/usr/local/lib', [ 'npm@3.5.3' ] ]
+70 verbose install where, what [ '/usr/local/lib', [ 'mean-cli@0.10.17' ] ]
+71 verbose install initial load of /usr/local/lib/package.json
+72 verbose install initial load of /usr/local/lib/package.json
+73 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+74 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+75 silly cache add args [ 'npm@3.5.3', null ]
+76 verbose cache add spec npm@3.5.3
+77 silly cache add parsed spec { raw: 'npm@3.5.3',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'npm',
+77 silly cache add   rawSpec: '3.5.3',
+77 silly cache add   spec: '3.5.3',
+77 silly cache add   type: 'version' }
+78 silly addNamed npm@3.5.3
+79 verbose addNamed "3.5.3" is a plain semver version for npm
+80 silly mapToRegistry name npm
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/npm
+84 verbose addNameVersion registry:https://registry.npmjs.org/npm not in flight; fetching
+85 silly cache add args [ 'mean-cli@0.10.17', null ]
+86 verbose cache add spec mean-cli@0.10.17
+87 silly cache add parsed spec { raw: 'mean-cli@0.10.17',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'mean-cli',
+87 silly cache add   rawSpec: '0.10.17',
+87 silly cache add   spec: '0.10.17',
+87 silly cache add   type: 'version' }
+88 silly addNamed mean-cli@0.10.17
+89 verbose addNamed "0.10.17" is a plain semver version for mean-cli
+90 silly mapToRegistry name mean-cli
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/mean-cli
+94 verbose addNameVersion registry:https://registry.npmjs.org/mean-cli not in flight; fetching
+95 verbose get https://registry.npmjs.org/mean-cli not expired, no request
+96 verbose get https://registry.npmjs.org/npm not expired, no request
+97 silly mapToRegistry name mean-cli
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/mean-cli
+101 verbose addRemoteTarball https://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz not in flight; adding
+102 verbose addRemoteTarball [ 'https://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz',
+102 verbose addRemoteTarball   'b5336d7eaa9aef53c5ea721a561a2392bcfd94ba' ]
+103 silly mapToRegistry name npm
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/npm
+107 verbose addRemoteTarball https://registry.npmjs.org/npm/-/npm-3.5.3.tgz not in flight; adding
+108 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-3.5.3.tgz',
+108 verbose addRemoteTarball   '6db811596f807c37123eafcb03270ffdde091215' ]
+109 info retry fetch attempt 1 at 9:59:13 PM
+110 info attempt registry request try #1 at 9:59:13 PM
+111 http fetch GET https://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz
+112 info retry fetch attempt 1 at 9:59:13 PM
+113 info attempt registry request try #1 at 9:59:13 PM
+114 http fetch GET https://registry.npmjs.org/npm/-/npm-3.5.3.tgz
+115 http fetch 200 https://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz
+116 silly fetchAndShaCheck shasum b5336d7eaa9aef53c5ea721a561a2392bcfd94ba
+117 verbose addTmpTarball /var/folders/_p/frly_0j16dj9jh_f2fgf4nn00000gn/T/npm-15167-e07ca2c3/registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for mean-cli@0.10.17
+119 silly cache afterAdd mean-cli@0.10.17
+120 verbose afterAdd /Users/wifi/.npm/mean-cli/0.10.17/package/package.json not in flight; writing
+121 verbose afterAdd /Users/wifi/.npm/mean-cli/0.10.17/package/package.json written
+122 silly install resolved [ { name: 'mean-cli',
+122 silly install resolved     description: 'Simple command line interface for installing and managing MEAN apps',
+122 silly install resolved     version: '0.10.17',
+122 silly install resolved     author: { name: 'https://github.com/linnovate/mean-cli/graphs/contributors' },
+122 silly install resolved     bin:
+122 silly install resolved      { mean: './bin/mean',
+122 silly install resolved        'mean-init': './bin/mean-init',
+122 silly install resolved        'mean-authorize': './bin/mean-authorize',
+122 silly install resolved        'mean-whoami': './bin/mean-whoami',
+122 silly install resolved        'mean-login': './bin/mean-login',
+122 silly install resolved        'mean-addKey': './bin/mean-addKey',
+122 silly install resolved        'mean-publish': './bin/mean-publish',
+122 silly install resolved        'mean-search': './bin/mean-search',
+122 silly install resolved        'mean-deploy': './bin/mean-deploy',
+122 silly install resolved        'mean-logs': './bin/mean-logs',
+122 silly install resolved        'mean-register': './bin/mean-register',
+122 silly install resolved        'mean-postinstall': './bin/mean-postinstall',
+122 silly install resolved        'mean-preinstall': './bin/mean-preinstall',
+122 silly install resolved        'mean-install': './bin/mean-install',
+122 silly install resolved        'mean-uninstall': './bin/mean-uninstall',
+122 silly install resolved        'mean-docs': './bin/mean-docs',
+122 silly install resolved        'mean-package': './bin/mean-package',
+122 silly install resolved        'mean-list': './bin/mean-list',
+122 silly install resolved        'mean-status': './bin/mean-status',
+122 silly install resolved        'mean-user': './bin/mean-user',
+122 silly install resolved        'mean-logout': './bin/mean-logout',
+122 silly install resolved        'mean-disable': './bin/mean-disable',
+122 silly install resolved        'mean-enable': './bin/mean-enable' },
+122 silly install resolved     contributors: 'https://github.com/linnovate/mean-cli/graphs/contributors',
+122 silly install resolved     dependencies:
+122 silly install resolved      { bower: '^1.3.8',
+122 silly install resolved        chalk: '^0.5.1',
+122 silly install resolved        commander: '^2.4.0',
+122 silly install resolved        inquirer: '^0.8.0',
+122 silly install resolved        'json-file-plus': '^2.0.0',
+122 silly install resolved        lodash: '^2.4.1',
+122 silly install resolved        'mean-health': '~0.1.3',
+122 silly install resolved        mongoose: '~4.0.2',
+122 silly install resolved        npm: '^2.1.0',
+122 silly install resolved        opener: '^1.3.0',
+122 silly install resolved        progress: '^1.1.8',
+122 silly install resolved        prompt: '^0.2.13',
+122 silly install resolved        request: 'latest',
+122 silly install resolved        shelljs: '^0.3.0',
+122 silly install resolved        'async-series': 'latest',
+122 silly install resolved        crypto: 'latest' },
+122 silly install resolved     devDependencies:
+122 silly install resolved      { jshint: '^2.5.10',
+122 silly install resolved        mocha: '^1.18.2',
+122 silly install resolved        'precommit-hook': '^1.0.7',
+122 silly install resolved        should: '^3.2.0' },
+122 silly install resolved     keywords: [ 'mean', 'meanio', 'mean.io', 'mean-cli' ],
+122 silly install resolved     license: 'MIT',
+122 silly install resolved     main: 'index',
+122 silly install resolved     preferGlobal: true,
+122 silly install resolved     repository:
+122 silly install resolved      { type: 'git',
+122 silly install resolved        url: 'git+https://github.com/linnovate/mean-cli.git' },
+122 silly install resolved     scripts:
+122 silly install resolved      { preinstall: 'node ./scripts/preinstall',
+122 silly install resolved        test: 'node node_modules/.bin/mocha test/**/*.js -R spec' },
+122 silly install resolved     gitHead: '40c8d546569868792535a45626999df2f4647308',
+122 silly install resolved     bugs: { url: 'https://github.com/linnovate/mean-cli/issues' },
+122 silly install resolved     homepage: 'https://github.com/linnovate/mean-cli#readme',
+122 silly install resolved     _id: 'mean-cli@0.10.17',
+122 silly install resolved     _shasum: 'b5336d7eaa9aef53c5ea721a561a2392bcfd94ba',
+122 silly install resolved     _from: 'mean-cli@0.10.17',
+122 silly install resolved     _npmVersion: '2.10.1',
+122 silly install resolved     _nodeVersion: '0.12.4',
+122 silly install resolved     _npmUser: { name: 'vapes', email: 'vapesk@gmail.com' },
+122 silly install resolved     dist:
+122 silly install resolved      { shasum: 'b5336d7eaa9aef53c5ea721a561a2392bcfd94ba',
+122 silly install resolved        tarball: 'http://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz' },
+122 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+122 silly install resolved     directories: {},
+122 silly install resolved     _resolved: 'https://registry.npmjs.org/mean-cli/-/mean-cli-0.10.17.tgz' } ]
+123 info install mean-cli@0.10.17 into /usr/local/lib
+124 info installOne mean-cli@0.10.17
+125 verbose installOne of mean-cli to /usr/local/lib not in flight; installing
+126 http fetch 200 https://registry.npmjs.org/npm/-/npm-3.5.3.tgz
+127 verbose lock using /Users/wifi/.npm/_locks/mean-cli-66865dbd2b085805.lock for /usr/local/lib/node_modules/mean-cli
+128 silly install write writing mean-cli 0.10.17 to /usr/local/lib/node_modules/mean-cli
+129 verbose unbuild lib/node_modules/mean-cli
+130 info preuninstall mean-cli@0.10.14
+131 info uninstall mean-cli@0.10.14
+132 verbose unbuild rmStuff mean-cli@0.10.14 from /usr/local/lib/node_modules
+133 silly gentlyRm /usr/local/bin/mean is being gently removed
+134 silly gentlyRm verifying /usr/local is an npm working directory
+135 silly gentlyRm /usr/local/bin/mean-init is being gently removed
+136 silly gentlyRm verifying /usr/local is an npm working directory
+137 silly gentlyRm /usr/local/bin/mean-authorize is being gently removed
+138 silly gentlyRm verifying /usr/local is an npm working directory
+139 silly gentlyRm /usr/local/bin/mean-whoami is being gently removed
+140 silly gentlyRm verifying /usr/local is an npm working directory
+141 silly gentlyRm /usr/local/bin/mean-login is being gently removed
+142 silly gentlyRm verifying /usr/local is an npm working directory
+143 silly gentlyRm /usr/local/bin/mean-addKey is being gently removed
+144 silly gentlyRm verifying /usr/local is an npm working directory
+145 silly gentlyRm /usr/local/bin/mean-publish is being gently removed
+146 silly gentlyRm verifying /usr/local is an npm working directory
+147 silly gentlyRm /usr/local/bin/mean-search is being gently removed
+148 silly gentlyRm verifying /usr/local is an npm working directory
+149 silly gentlyRm /usr/local/bin/mean-deploy is being gently removed
+150 silly gentlyRm verifying /usr/local is an npm working directory
+151 silly gentlyRm /usr/local/bin/mean-logs is being gently removed
+152 silly gentlyRm verifying /usr/local is an npm working directory
+153 silly gentlyRm /usr/local/bin/mean-register is being gently removed
+154 silly gentlyRm verifying /usr/local is an npm working directory
+155 silly gentlyRm /usr/local/bin/mean-postinstall is being gently removed
+156 silly gentlyRm verifying /usr/local is an npm working directory
+157 silly gentlyRm /usr/local/bin/mean-preinstall is being gently removed
+158 silly gentlyRm verifying /usr/local is an npm working directory
+159 silly gentlyRm /usr/local/bin/mean-install is being gently removed
+160 silly gentlyRm verifying /usr/local is an npm working directory
+161 silly gentlyRm /usr/local/bin/mean-uninstall is being gently removed
+162 silly gentlyRm verifying /usr/local is an npm working directory
+163 silly gentlyRm /usr/local/bin/mean-docs is being gently removed
+164 silly gentlyRm verifying /usr/local is an npm working directory
+165 silly gentlyRm /usr/local/bin/mean-package is being gently removed
+166 silly gentlyRm verifying /usr/local is an npm working directory
+167 silly gentlyRm /usr/local/bin/mean-list is being gently removed
+168 silly gentlyRm verifying /usr/local is an npm working directory
+169 silly gentlyRm /usr/local/bin/mean-status is being gently removed
+170 silly gentlyRm verifying /usr/local is an npm working directory
+171 silly gentlyRm /usr/local/bin/mean-user is being gently removed
+172 silly gentlyRm verifying /usr/local is an npm working directory
+173 silly gentlyRm /usr/local/bin/mean-logout is being gently removed
+174 silly gentlyRm verifying /usr/local is an npm working directory
+175 silly gentlyRm /usr/local/bin/mean-disable is being gently removed
+176 silly gentlyRm verifying /usr/local is an npm working directory
+177 silly gentlyRm /usr/local/bin/mean-enable is being gently removed
+178 silly gentlyRm verifying /usr/local is an npm working directory
+179 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+180 silly gentlyRm deletion target /usr/local/bin/mean is under /usr/local
+181 verbose gentlyRm vacuuming from /usr/local/bin/mean up to /usr/local
+182 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+183 silly gentlyRm deletion target /usr/local/bin/mean-init is under /usr/local
+184 verbose gentlyRm vacuuming from /usr/local/bin/mean-init up to /usr/local
+185 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+186 silly gentlyRm deletion target /usr/local/bin/mean-authorize is under /usr/local
+187 verbose gentlyRm vacuuming from /usr/local/bin/mean-authorize up to /usr/local
+188 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+189 silly gentlyRm deletion target /usr/local/bin/mean-whoami is under /usr/local
+190 verbose gentlyRm vacuuming from /usr/local/bin/mean-whoami up to /usr/local
+191 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+192 silly gentlyRm deletion target /usr/local/bin/mean-login is under /usr/local
+193 verbose gentlyRm vacuuming from /usr/local/bin/mean-login up to /usr/local
+194 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+195 silly gentlyRm deletion target /usr/local/bin/mean-addKey is under /usr/local
+196 verbose gentlyRm vacuuming from /usr/local/bin/mean-addKey up to /usr/local
+197 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+198 silly gentlyRm deletion target /usr/local/bin/mean-publish is under /usr/local
+199 verbose gentlyRm vacuuming from /usr/local/bin/mean-publish up to /usr/local
+200 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+201 silly gentlyRm deletion target /usr/local/bin/mean-search is under /usr/local
+202 verbose gentlyRm vacuuming from /usr/local/bin/mean-search up to /usr/local
+203 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+204 silly gentlyRm deletion target /usr/local/bin/mean-deploy is under /usr/local
+205 verbose gentlyRm vacuuming from /usr/local/bin/mean-deploy up to /usr/local
+206 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+207 silly gentlyRm deletion target /usr/local/bin/mean-logs is under /usr/local
+208 verbose gentlyRm vacuuming from /usr/local/bin/mean-logs up to /usr/local
+209 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+210 silly gentlyRm deletion target /usr/local/bin/mean-register is under /usr/local
+211 verbose gentlyRm vacuuming from /usr/local/bin/mean-register up to /usr/local
+212 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+213 silly gentlyRm deletion target /usr/local/bin/mean-postinstall is under /usr/local
+214 verbose gentlyRm vacuuming from /usr/local/bin/mean-postinstall up to /usr/local
+215 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+216 silly gentlyRm deletion target /usr/local/bin/mean-preinstall is under /usr/local
+217 verbose gentlyRm vacuuming from /usr/local/bin/mean-preinstall up to /usr/local
+218 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+219 silly gentlyRm deletion target /usr/local/bin/mean-install is under /usr/local
+220 verbose gentlyRm vacuuming from /usr/local/bin/mean-install up to /usr/local
+221 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+222 silly gentlyRm deletion target /usr/local/bin/mean-uninstall is under /usr/local
+223 verbose gentlyRm vacuuming from /usr/local/bin/mean-uninstall up to /usr/local
+224 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+225 silly gentlyRm deletion target /usr/local/bin/mean-docs is under /usr/local
+226 verbose gentlyRm vacuuming from /usr/local/bin/mean-docs up to /usr/local
+227 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+228 silly gentlyRm deletion target /usr/local/bin/mean-package is under /usr/local
+229 verbose gentlyRm vacuuming from /usr/local/bin/mean-package up to /usr/local
+230 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+231 silly gentlyRm deletion target /usr/local/bin/mean-list is under /usr/local
+232 verbose gentlyRm vacuuming from /usr/local/bin/mean-list up to /usr/local
+233 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+234 silly gentlyRm deletion target /usr/local/bin/mean-status is under /usr/local
+235 verbose gentlyRm vacuuming from /usr/local/bin/mean-status up to /usr/local
+236 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+237 silly gentlyRm deletion target /usr/local/bin/mean-user is under /usr/local
+238 verbose gentlyRm vacuuming from /usr/local/bin/mean-user up to /usr/local
+239 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+240 silly gentlyRm deletion target /usr/local/bin/mean-logout is under /usr/local
+241 verbose gentlyRm vacuuming from /usr/local/bin/mean-logout up to /usr/local
+242 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+243 silly gentlyRm deletion target /usr/local/bin/mean-disable is under /usr/local
+244 verbose gentlyRm vacuuming from /usr/local/bin/mean-disable up to /usr/local
+245 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+246 silly gentlyRm deletion target /usr/local/bin/mean-enable is under /usr/local
+247 verbose gentlyRm vacuuming from /usr/local/bin/mean-enable up to /usr/local
+248 silly vacuum-fs removing /usr/local/bin/mean
+249 silly vacuum-fs removing /usr/local/bin/mean-init
+250 silly vacuum-fs removing /usr/local/bin/mean-authorize
+251 silly vacuum-fs removing /usr/local/bin/mean-whoami
+252 silly vacuum-fs removing /usr/local/bin/mean-login
+253 silly vacuum-fs removing /usr/local/bin/mean-addKey
+254 silly vacuum-fs removing /usr/local/bin/mean-publish
+255 silly vacuum-fs removing /usr/local/bin/mean-search
+256 silly vacuum-fs removing /usr/local/bin/mean-deploy
+257 silly vacuum-fs removing /usr/local/bin/mean-logs
+258 silly vacuum-fs removing /usr/local/bin/mean-register
+259 silly vacuum-fs removing /usr/local/bin/mean-postinstall
+260 silly vacuum-fs removing /usr/local/bin/mean-preinstall
+261 silly vacuum-fs removing /usr/local/bin/mean-install
+262 silly vacuum-fs removing /usr/local/bin/mean-uninstall
+263 silly vacuum-fs removing /usr/local/bin/mean-docs
+264 silly vacuum-fs removing /usr/local/bin/mean-package
+265 silly vacuum-fs removing /usr/local/bin/mean-list
+266 silly vacuum-fs removing /usr/local/bin/mean-status
+267 silly vacuum-fs removing /usr/local/bin/mean-user
+268 silly vacuum-fs removing /usr/local/bin/mean-logout
+269 silly vacuum-fs removing /usr/local/bin/mean-disable
+270 silly vacuum-fs removing /usr/local/bin/mean-enable
+271 silly vacuum-fs quitting because other entries in /usr/local/bin
+272 silly vacuum-fs quitting because other entries in /usr/local/bin
+273 silly vacuum-fs quitting because other entries in /usr/local/bin
+274 silly vacuum-fs quitting because other entries in /usr/local/bin
+275 silly vacuum-fs quitting because other entries in /usr/local/bin
+276 silly vacuum-fs quitting because other entries in /usr/local/bin
+277 silly vacuum-fs quitting because other entries in /usr/local/bin
+278 silly vacuum-fs quitting because other entries in /usr/local/bin
+279 silly vacuum-fs quitting because other entries in /usr/local/bin
+280 silly vacuum-fs quitting because other entries in /usr/local/bin
+281 silly vacuum-fs quitting because other entries in /usr/local/bin
+282 silly vacuum-fs quitting because other entries in /usr/local/bin
+283 silly vacuum-fs quitting because other entries in /usr/local/bin
+284 silly vacuum-fs quitting because other entries in /usr/local/bin
+285 silly vacuum-fs quitting because other entries in /usr/local/bin
+286 silly vacuum-fs quitting because other entries in /usr/local/bin
+287 silly vacuum-fs quitting because other entries in /usr/local/bin
+288 silly vacuum-fs quitting because other entries in /usr/local/bin
+289 silly vacuum-fs quitting because other entries in /usr/local/bin
+290 silly vacuum-fs quitting because other entries in /usr/local/bin
+291 silly vacuum-fs quitting because other entries in /usr/local/bin
+292 silly vacuum-fs quitting because other entries in /usr/local/bin
+293 silly vacuum-fs quitting because other entries in /usr/local/bin
+294 info postuninstall mean-cli@0.10.14
+295 silly gentlyRm /usr/local/lib/node_modules/mean-cli is being purged from base /usr/local
+296 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mean-cli
+297 silly vacuum-fs purging /usr/local/lib/node_modules/mean-cli
+298 verbose unlock done using /Users/wifi/.npm/_locks/mean-cli-66865dbd2b085805.lock for /usr/local/lib/node_modules/mean-cli
+299 silly fetchAndShaCheck shasum 6db811596f807c37123eafcb03270ffdde091215
+300 verbose addTmpTarball /var/folders/_p/frly_0j16dj9jh_f2fgf4nn00000gn/T/npm-15167-e07ca2c3/registry.npmjs.org/npm/-/npm-3.5.3.tgz not in flight; adding
+301 verbose addTmpTarball already have metadata; skipping unpack for npm@3.5.3
+302 silly cache afterAdd npm@3.5.3
+303 verbose afterAdd /Users/wifi/.npm/npm/3.5.3/package/package.json not in flight; writing
+304 verbose afterAdd /Users/wifi/.npm/npm/3.5.3/package/package.json written
+305 silly install resolved [ { version: '3.5.3',
+305 silly install resolved     name: 'npm',
+305 silly install resolved     description: 'a package manager for JavaScript',
+305 silly install resolved     keywords: [ 'install', 'modules', 'package manager', 'package.json' ],
+305 silly install resolved     preferGlobal: true,
+305 silly install resolved     config: { publishtest: false },
+305 silly install resolved     homepage: 'https://docs.npmjs.com/',
+305 silly install resolved     author:
+305 silly install resolved      { name: 'Isaac Z. Schlueter',
+305 silly install resolved        email: 'i@izs.me',
+305 silly install resolved        url: 'http://blog.izs.me' },
+305 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/npm/npm.git' },
+305 silly install resolved     bugs: { url: 'http://github.com/npm/npm/issues' },
+305 silly install resolved     directories: { bin: './bin', doc: './doc', lib: './lib', man: './man' },
+305 silly install resolved     main: './lib/npm.js',
+305 silly install resolved     bin: { npm: './bin/npm-cli.js' },
+305 silly install resolved     dependencies:
+305 silly install resolved      { abbrev: '~1.0.7',
+305 silly install resolved        ansicolors: '~0.3.2',
+305 silly install resolved        ansistyles: '~0.1.3',
+305 silly install resolved        aproba: '~1.0.1',
+305 silly install resolved        archy: '~1.0.0',
+305 silly install resolved        'async-some': '~1.0.2',
+305 silly install resolved        chownr: '~1.0.1',
+305 silly install resolved        'cmd-shim': '~2.0.1',
+305 silly install resolved        columnify: '~1.5.2',
+305 silly install resolved        'config-chain': '~1.1.9',
+305 silly install resolved        dezalgo: '~1.0.3',
+305 silly install resolved        editor: '~1.0.0',
+305 silly install resolved        'fs-vacuum': '~1.2.7',
+305 silly install resolved        'fs-write-stream-atomic': '~1.0.5',
+305 silly install resolved        fstream: '~1.0.8',
+305 silly install resolved        'fstream-npm': '~1.0.7',
+305 silly install resolved        glob: '~5.0.15',
+305 silly install resolved        'graceful-fs': '~4.1.2',
+305 silly install resolved        'has-unicode': '~1.0.1',
+305 silly install resolved        'hosted-git-info': '~2.1.4',
+305 silly install resolved        iferr: '~0.1.5',
+305 silly install resolved        inflight: '~1.0.4',
+305 silly install resolved        inherits: '~2.0.1',
+305 silly install resolved        ini: '~1.3.4',
+305 silly install resolved        'init-package-json': '~1.9.1',
+305 silly install resolved        lockfile: '~1.0.1',
+305 silly install resolved        'lodash.clonedeep': '~3.0.2',
+305 silly install resolved        'lodash.union': '~3.1.0',
+305 silly install resolved        'lodash.uniq': '~3.2.2',
+305 silly install resolved        'lodash.without': '~3.2.1',
+305 silly install resolved        mkdirp: '~0.5.1',
+305 silly install resolved        'node-gyp': '~3.2.1',
+305 silly install resolved        nopt: '~3.0.6',
+305 silly install resolved        'normalize-git-url': '~3.0.1',
+305 silly install resolved        'normalize-package-data': '~2.3.5',
+305 silly install resolved        'npm-cache-filename': '~1.0.2',
+305 silly install resolved        'npm-install-checks': '~2.0.1',
+305 silly install resolved        'npm-package-arg': '~4.1.0',
+305 silly install resolved        'npm-registry-client': '~7.0.9',
+305 silly install resolved        'npm-user-validate': '~0.1.2',
+305 silly install resolved        npmlog: '~2.0.0',
+305 silly install resolved        once: '~1.3.3',
+305 silly install resolved        opener: '~1.4.1',
+305 silly install resolved        osenv: '~0.1.3',
+305 silly install resolved        'path-is-inside': '~1.0.1',
+305 silly install resolved        read: '~1.0.7',
+305 silly install resolved        'read-cmd-shim': '~1.0.1',
+305 silly install resolved        'read-installed': '~4.0.3',
+305 silly install resolved        'read-package-json': '~2.0.2',
+305 silly install resolved        'read-package-tree': '~5.1.2',
+305 silly install resolved        'realize-package-specifier': '~3.0.1',
+305 silly install resolved        request: '~2.67.0',
+305 silly install resolved        retry: '~0.8.0',
+305 silly install resolved        rimraf: '~2.4.4',
+305 silly install resolved        semver: '~5.1.0',
+305 silly install resolved        sha: '~2.0.1',
+305 silly install resolved        slide: '~1.1.6',
+305 silly install resolved        'sorted-object': '~1.0.0',
+305 silly install resolved        tar: '~2.2.1',
+305 silly install resolved        'text-table': '~0.2.0',
+305 silly install resolved        'uid-number': '0.0.6',
+305 silly install resolved        umask: '~1.1.0',
+305 silly install resolved        'unique-filename': '~1.1.0',
+305 silly install resolved        unpipe: '~1.0.0',
+305 silly install resolved        'validate-npm-package-name': '~2.2.2',
+305 silly install resolved        which: '~1.2.0',
+305 silly install resolved        wrappy: '~1.0.1',
+305 silly install resolved        'write-file-atomic': '~1.1.4',
+305 silly install resolved        'ansi-regex': '*',
+305 silly install resolved        debuglog: '*',
+305 silly install resolved        imurmurhash: '*',
+305 silly install resolved        'lodash._baseindexof': '*',
+305 silly install resolved        'lodash._baseuniq': '*',
+305 silly install resolved        'lodash._bindcallback': '*',
+305 silly install resolved        'lodash._cacheindexof': '*',
+305 silly install resolved        'lodash._createcache': '*',
+305 silly install resolved        'lodash._getnative': '*',
+305 silly install resolved        'lodash.isarguments': '*',
+305 silly install resolved        'lodash.isarray': '*',
+305 silly install resolved        'lodash.keys': '*',
+305 silly install resolved        'lodash.restparam': '*',
+305 silly install resolved        'readdir-scoped-modules': '*',
+305 silly install resolved        'strip-ansi': '*',
+305 silly install resolved        'validate-npm-package-license': '*' },
+305 silly install resolved     bundleDependencies:
+305 silly install resolved      [ 'abbrev',
+305 silly install resolved        'ansi-regex',
+305 silly install resolved        'ansicolors',
+305 silly install resolved        'ansistyles',
+305 silly install resolved        'aproba',
+305 silly install resolved        'archy',
+305 silly install resolved        'async-some',
+305 silly install resolved        'chownr',
+305 silly install resolved        'cmd-shim',
+305 silly install resolved        'columnify',
+305 silly install resolved        'config-chain',
+305 silly install resolved        'debuglog',
+305 silly install resolved        'dezalgo',
+305 silly install resolved        'editor',
+305 silly install resolved        'fs-vacuum',
+305 silly install resolved        'fs-write-stream-atomic',
+305 silly install resolved        'fstream',
+305 silly install resolved        'fstream-npm',
+305 silly install resolved        'glob',
+305 silly install resolved        'graceful-fs',
+305 silly install resolved        'has-unicode',
+305 silly install resolved        'hosted-git-info',
+305 silly install resolved        'iferr',
+305 silly install resolved        'imurmurhash',
+305 silly install resolved        'inflight',
+305 silly install resolved        'inherits',
+305 silly install resolved        'ini',
+305 silly install resolved        'init-package-json',
+305 silly install resolved        'lockfile',
+305 silly install resolved        'lodash._baseindexof',
+305 silly install resolved        'lodash._baseuniq',
+305 silly install resolved        'lodash._bindcallback',
+305 silly install resolved        'lodash._cacheindexof',
+305 silly install resolved        'lodash._createcache',
+305 silly install resolved        'lodash._getnative',
+305 silly install resolved        'lodash.clonedeep',
+305 silly install resolved        'lodash.isarguments',
+305 silly install resolved        'lodash.isarray',
+305 silly install resolved        'lodash.keys',
+305 silly install resolved        'lodash.restparam',
+305 silly install resolved        'lodash.union',
+305 silly install resolved        'lodash.uniq',
+305 silly install resolved        'lodash.without',
+305 silly install resolved        'mkdirp',
+305 silly install resolved        'node-gyp',
+305 silly install resolved        'nopt',
+305 silly install resolved        'normalize-git-url',
+305 silly install resolved        'normalize-package-data',
+305 silly install resolved        'npm-cache-filename',
+305 silly install resolved        'npm-install-checks',
+305 silly install resolved        'npm-package-arg',
+305 silly install resolved        'npm-registry-client',
+305 silly install resolved        'npm-user-validate',
+305 silly install resolved        'npmlog',
+305 silly install resolved        'once',
+305 silly install resolved        'opener',
+305 silly install resolved        'osenv',
+305 silly install resolved        'path-is-inside',
+305 silly install resolved        'read',
+305 silly install resolved        'read-cmd-shim',
+305 silly install resolved        'read-installed',
+305 silly install resolved        'read-package-json',
+305 silly install resolved        'read-package-tree',
+305 silly install resolved        'readdir-scoped-modules',
+305 silly install resolved        'realize-package-specifier',
+305 silly install resolved        'request',
+305 silly install resolved        'retry',
+305 silly install resolved        'rimraf',
+305 silly install resolved        'semver',
+305 silly install resolved        'sha',
+305 silly install resolved        'slide',
+305 silly install resolved        'sorted-object',
+305 silly install resolved        'strip-ansi',
+305 silly install resolved        'tar',
+305 silly install resolved        'text-table',
+305 silly install resolved        'uid-number',
+305 silly install resolved        'umask',
+305 silly install resolved        'unique-filename',
+305 silly install resolved        'unpipe',
+305 silly install resolved        'validate-npm-package-license',
+305 silly install resolved        'validate-npm-package-name',
+305 silly install resolved        'which',
+305 silly install resolved        'wrappy',
+305 silly install resolved        'write-file-atomic' ],
+305 silly install resolved     devDependencies:
+305 silly install resolved      { 'deep-equal': '~1.0.1',
+305 silly install resolved        marked: '~0.3.5',
+305 silly install resolved        'marked-man': '~0.1.5',
+305 silly install resolved        nock: '~1.9.0',
+305 silly install resolved        'npm-registry-couchapp': '~2.6.11',
+305 silly install resolved        'npm-registry-mock': '~1.0.1',
+305 silly install resolved        'readable-stream': '~2.0.2',
+305 silly install resolved        'require-inject': '~1.3.0',
+305 silly install resolved        'sprintf-js': '~1.0.3',
+305 silly install resolved        standard: '~5.4.1',
+305 silly install resolved        tap: '~2.3.1' },
+305 silly install resolved     scripts:
+305 silly install resolved      { dumpconf: 'env | grep npm | sort | uniq',
+305 silly install resolved        prepublish: 'node bin/npm-cli.js prune --prefix=. --no-global && rimraf test/*/*/node_modules && make -j4 doc',
+305 silly install resolved        preversion: 'bash scripts/update-authors.sh && git add AUTHORS && git commit -m "update AUTHORS" || true',
+305 silly install resolved        tap: 'tap --timeout 240',
+305 silly install resolved        test: 'standard && npm run test-tap',
+305 silly install resolved        'test-all': 'standard && npm run test-legacy && npm run test-tap',
+305 silly install resolved        'test-legacy': 'node ./test/run.js',
+305 silly install resolved        'test-tap': 'npm run tap -- "test/tap/*.js"',
+305 silly install resolved        'test-node': '"$NODE" ./test/run.js && "$NODE" "node_modules/.bin/tap" --timeout 240 "test/tap/*.js"' },
+305 silly install resolved     license: 'Artistic-2.0',
+305 silly install resolved     contributors:
+305 silly install resolved      [ [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object],
+305 silly install resolved        [Object] ],
+305 silly install resolved     man:
+305 silly install resolved      [ '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-access.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-adduser.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-bin.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-bugs.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-build.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-bundle.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-cache.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-completion.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-config.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-dedupe.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-deprecate.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-dist-tag.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-docs.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-edit.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-explore.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-help-search.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-help.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-init.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-install-test.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-install.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-link.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-logout.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-ls.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-outdated.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-owner.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-pack.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-ping.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-prefix.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-prune.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-publish.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-README.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-rebuild.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-repo.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-restart.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-root.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-run-script.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-search.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-shrinkwrap.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-star.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-stars.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-start.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-stop.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-tag.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-team.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-test.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-uninstall.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-unpublish.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-update.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-version.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-view.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm-whoami.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man1/npm.1',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man5/npm-folders.5',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man5/npm-global.5',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man5/npm-json.5',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man5/npmrc.5',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man5/package.json.5',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-coding-style.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-config.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-developers.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-disputes.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-index.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-orgs.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-registry.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-scope.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/npm-scripts.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/removing-npm.7',
+305 silly install resolved        '/Users/ogd/Documents/projects/npm/npm/man/man7/semver.7' ],
+305 silly install resolved     gitHead: 'a81f2d231f549aeaa6598b1924c658f814d4bfad',
+305 silly install resolved     _id: 'npm@3.5.3',
+305 silly install resolved     _shasum: '6db811596f807c37123eafcb03270ffdde091215',
+305 silly install resolved     _from: 'npm@3.5.3',
+305 silly install resolved     _npmVersion: '3.5.3',
+305 silly install resolved     _nodeVersion: '5.1.0',
+305 silly install resolved     _npmUser: { name: 'othiym23', email: 'ogd@aoaioxxysz.net' },
+305 silly install resolved     dist:
+305 silly install resolved      { shasum: '6db811596f807c37123eafcb03270ffdde091215',
+305 silly install resolved        tarball: 'http://registry.npmjs.org/npm/-/npm-3.5.3.tgz' },
+305 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+305 silly install resolved     _resolved: 'https://registry.npmjs.org/npm/-/npm-3.5.3.tgz' } ]
+306 info install npm@3.5.3 into /usr/local/lib
+307 info installOne npm@3.5.3
+308 verbose installOne of npm to /usr/local/lib not in flight; installing
+309 verbose lock using /Users/wifi/.npm/_locks/npm-8bd9e7c51388758c.lock for /usr/local/lib/node_modules/npm
+310 silly install write writing npm 3.5.3 to /usr/local/lib/node_modules/npm
+311 verbose unbuild lib/node_modules/npm
+312 info preuninstall npm@2.11.3
+313 info uninstall npm@2.11.3
+314 verbose unbuild rmStuff npm@2.11.3 from /usr/local/lib/node_modules
+315 silly gentlyRm /usr/local/bin/npm is being gently removed
+316 silly gentlyRm verifying /usr/local is an npm working directory
+317 verbose rmMans man files are [ '/usr/local/lib/node_modules/npm/man/man1/npm-access.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-adduser.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-bin.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-bugs.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-build.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-bundle.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-cache.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-completion.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-config.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-dedupe.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-deprecate.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-dist-tag.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-docs.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-edit.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-explore.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-help-search.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-help.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-init.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-install.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-link.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-logout.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-ls.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-outdated.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-owner.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-pack.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-prefix.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-prune.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-publish.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-README.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-rebuild.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-repo.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-restart.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-rm.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-root.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-run-script.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-search.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-shrinkwrap.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-star.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-stars.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-start.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-stop.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-submodule.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-tag.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-test.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-uninstall.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-unpublish.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-update.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-version.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-view.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm-whoami.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man1/npm.1',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-bin.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-bugs.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-cache.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-commands.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-config.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-deprecate.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-docs.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-edit.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-explore.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-help-search.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-init.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-install.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-link.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-load.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-ls.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-outdated.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-owner.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-pack.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-prefix.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-prune.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-publish.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-rebuild.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-repo.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-restart.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-root.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-run-script.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-search.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-shrinkwrap.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-start.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-stop.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-submodule.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-tag.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-test.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-uninstall.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-unpublish.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-update.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-version.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-view.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm-whoami.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man3/npm.3',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man5/npm-folders.5',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man5/npm-global.5',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man5/npm-json.5',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man5/npmrc.5',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man5/package.json.5',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-coding-style.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-config.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-developers.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-disputes.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-faq.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-index.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-registry.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-scope.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/npm-scripts.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/removing-npm.7',
+317 verbose rmMans   '/usr/local/lib/node_modules/npm/man/man7/semver.7' ] in /usr/local/share/man
+318 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-access.1
+319 silly gentlyRm /usr/local/share/man/man1/npm-access.1.1 is being gently removed
+320 silly gentlyRm verifying /usr/local is an npm working directory
+321 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-adduser.1
+322 silly gentlyRm /usr/local/share/man/man1/npm-adduser.1.1 is being gently removed
+323 silly gentlyRm verifying /usr/local is an npm working directory
+324 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-bin.1
+325 silly gentlyRm /usr/local/share/man/man1/npm-bin.1.1 is being gently removed
+326 silly gentlyRm verifying /usr/local is an npm working directory
+327 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-bugs.1
+328 silly gentlyRm /usr/local/share/man/man1/npm-bugs.1.1 is being gently removed
+329 silly gentlyRm verifying /usr/local is an npm working directory
+330 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-build.1
+331 silly gentlyRm /usr/local/share/man/man1/npm-build.1.1 is being gently removed
+332 silly gentlyRm verifying /usr/local is an npm working directory
+333 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-bundle.1
+334 silly gentlyRm /usr/local/share/man/man1/npm-bundle.1.1 is being gently removed
+335 silly gentlyRm verifying /usr/local is an npm working directory
+336 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-cache.1
+337 silly gentlyRm /usr/local/share/man/man1/npm-cache.1.1 is being gently removed
+338 silly gentlyRm verifying /usr/local is an npm working directory
+339 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-completion.1
+340 silly gentlyRm /usr/local/share/man/man1/npm-completion.1.1 is being gently removed
+341 silly gentlyRm verifying /usr/local is an npm working directory
+342 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-config.1
+343 silly gentlyRm /usr/local/share/man/man1/npm-config.1.1 is being gently removed
+344 silly gentlyRm verifying /usr/local is an npm working directory
+345 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-dedupe.1
+346 silly gentlyRm /usr/local/share/man/man1/npm-dedupe.1.1 is being gently removed
+347 silly gentlyRm verifying /usr/local is an npm working directory
+348 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-deprecate.1
+349 silly gentlyRm /usr/local/share/man/man1/npm-deprecate.1.1 is being gently removed
+350 silly gentlyRm verifying /usr/local is an npm working directory
+351 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-dist-tag.1
+352 silly gentlyRm /usr/local/share/man/man1/npm-dist-tag.1.1 is being gently removed
+353 silly gentlyRm verifying /usr/local is an npm working directory
+354 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-docs.1
+355 silly gentlyRm /usr/local/share/man/man1/npm-docs.1.1 is being gently removed
+356 silly gentlyRm verifying /usr/local is an npm working directory
+357 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-edit.1
+358 silly gentlyRm /usr/local/share/man/man1/npm-edit.1.1 is being gently removed
+359 silly gentlyRm verifying /usr/local is an npm working directory
+360 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-explore.1
+361 silly gentlyRm /usr/local/share/man/man1/npm-explore.1.1 is being gently removed
+362 silly gentlyRm verifying /usr/local is an npm working directory
+363 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-help-search.1
+364 silly gentlyRm /usr/local/share/man/man1/npm-help-search.1.1 is being gently removed
+365 silly gentlyRm verifying /usr/local is an npm working directory
+366 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-help.1
+367 silly gentlyRm /usr/local/share/man/man1/npm-help.1.1 is being gently removed
+368 silly gentlyRm verifying /usr/local is an npm working directory
+369 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-init.1
+370 silly gentlyRm /usr/local/share/man/man1/npm-init.1.1 is being gently removed
+371 silly gentlyRm verifying /usr/local is an npm working directory
+372 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-install.1
+373 silly gentlyRm /usr/local/share/man/man1/npm-install.1.1 is being gently removed
+374 silly gentlyRm verifying /usr/local is an npm working directory
+375 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-link.1
+376 silly gentlyRm /usr/local/share/man/man1/npm-link.1.1 is being gently removed
+377 silly gentlyRm verifying /usr/local is an npm working directory
+378 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-logout.1
+379 silly gentlyRm /usr/local/share/man/man1/npm-logout.1.1 is being gently removed
+380 silly gentlyRm verifying /usr/local is an npm working directory
+381 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-ls.1
+382 silly gentlyRm /usr/local/share/man/man1/npm-ls.1.1 is being gently removed
+383 silly gentlyRm verifying /usr/local is an npm working directory
+384 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-outdated.1
+385 silly gentlyRm /usr/local/share/man/man1/npm-outdated.1.1 is being gently removed
+386 silly gentlyRm verifying /usr/local is an npm working directory
+387 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-owner.1
+388 silly gentlyRm /usr/local/share/man/man1/npm-owner.1.1 is being gently removed
+389 silly gentlyRm verifying /usr/local is an npm working directory
+390 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-pack.1
+391 silly gentlyRm /usr/local/share/man/man1/npm-pack.1.1 is being gently removed
+392 silly gentlyRm verifying /usr/local is an npm working directory
+393 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-prefix.1
+394 silly gentlyRm /usr/local/share/man/man1/npm-prefix.1.1 is being gently removed
+395 silly gentlyRm verifying /usr/local is an npm working directory
+396 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-prune.1
+397 silly gentlyRm /usr/local/share/man/man1/npm-prune.1.1 is being gently removed
+398 silly gentlyRm verifying /usr/local is an npm working directory
+399 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-publish.1
+400 silly gentlyRm /usr/local/share/man/man1/npm-publish.1.1 is being gently removed
+401 silly gentlyRm verifying /usr/local is an npm working directory
+402 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-README.1
+403 silly gentlyRm /usr/local/share/man/man1/npm-README.1.1 is being gently removed
+404 silly gentlyRm verifying /usr/local is an npm working directory
+405 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-rebuild.1
+406 silly gentlyRm /usr/local/share/man/man1/npm-rebuild.1.1 is being gently removed
+407 silly gentlyRm verifying /usr/local is an npm working directory
+408 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-repo.1
+409 silly gentlyRm /usr/local/share/man/man1/npm-repo.1.1 is being gently removed
+410 silly gentlyRm verifying /usr/local is an npm working directory
+411 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-restart.1
+412 silly gentlyRm /usr/local/share/man/man1/npm-restart.1.1 is being gently removed
+413 silly gentlyRm verifying /usr/local is an npm working directory
+414 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-rm.1
+415 silly gentlyRm /usr/local/share/man/man1/npm-rm.1.1 is being gently removed
+416 silly gentlyRm verifying /usr/local is an npm working directory
+417 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-root.1
+418 silly gentlyRm /usr/local/share/man/man1/npm-root.1.1 is being gently removed
+419 silly gentlyRm verifying /usr/local is an npm working directory
+420 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-run-script.1
+421 silly gentlyRm /usr/local/share/man/man1/npm-run-script.1.1 is being gently removed
+422 silly gentlyRm verifying /usr/local is an npm working directory
+423 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-search.1
+424 silly gentlyRm /usr/local/share/man/man1/npm-search.1.1 is being gently removed
+425 silly gentlyRm verifying /usr/local is an npm working directory
+426 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-shrinkwrap.1
+427 silly gentlyRm /usr/local/share/man/man1/npm-shrinkwrap.1.1 is being gently removed
+428 silly gentlyRm verifying /usr/local is an npm working directory
+429 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-star.1
+430 silly gentlyRm /usr/local/share/man/man1/npm-star.1.1 is being gently removed
+431 silly gentlyRm verifying /usr/local is an npm working directory
+432 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-stars.1
+433 silly gentlyRm /usr/local/share/man/man1/npm-stars.1.1 is being gently removed
+434 silly gentlyRm verifying /usr/local is an npm working directory
+435 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-start.1
+436 silly gentlyRm /usr/local/share/man/man1/npm-start.1.1 is being gently removed
+437 silly gentlyRm verifying /usr/local is an npm working directory
+438 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-stop.1
+439 silly gentlyRm /usr/local/share/man/man1/npm-stop.1.1 is being gently removed
+440 silly gentlyRm verifying /usr/local is an npm working directory
+441 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-submodule.1
+442 silly gentlyRm /usr/local/share/man/man1/npm-submodule.1.1 is being gently removed
+443 silly gentlyRm verifying /usr/local is an npm working directory
+444 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-tag.1
+445 silly gentlyRm /usr/local/share/man/man1/npm-tag.1.1 is being gently removed
+446 silly gentlyRm verifying /usr/local is an npm working directory
+447 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-test.1
+448 silly gentlyRm /usr/local/share/man/man1/npm-test.1.1 is being gently removed
+449 silly gentlyRm verifying /usr/local is an npm working directory
+450 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-uninstall.1
+451 silly gentlyRm /usr/local/share/man/man1/npm-uninstall.1.1 is being gently removed
+452 silly gentlyRm verifying /usr/local is an npm working directory
+453 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-unpublish.1
+454 silly gentlyRm /usr/local/share/man/man1/npm-unpublish.1.1 is being gently removed
+455 silly gentlyRm verifying /usr/local is an npm working directory
+456 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-update.1
+457 silly gentlyRm /usr/local/share/man/man1/npm-update.1.1 is being gently removed
+458 silly gentlyRm verifying /usr/local is an npm working directory
+459 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-version.1
+460 silly gentlyRm /usr/local/share/man/man1/npm-version.1.1 is being gently removed
+461 silly gentlyRm verifying /usr/local is an npm working directory
+462 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-view.1
+463 silly gentlyRm /usr/local/share/man/man1/npm-view.1.1 is being gently removed
+464 silly gentlyRm verifying /usr/local is an npm working directory
+465 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm-whoami.1
+466 silly gentlyRm /usr/local/share/man/man1/npm-whoami.1.1 is being gently removed
+467 silly gentlyRm verifying /usr/local is an npm working directory
+468 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man1/npm.1
+469 silly gentlyRm /usr/local/share/man/man1/npm.1.1 is being gently removed
+470 silly gentlyRm verifying /usr/local is an npm working directory
+471 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-bin.3
+472 silly gentlyRm /usr/local/share/man/man3/npm-bin.3.3 is being gently removed
+473 silly gentlyRm verifying /usr/local is an npm working directory
+474 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-bugs.3
+475 silly gentlyRm /usr/local/share/man/man3/npm-bugs.3.3 is being gently removed
+476 silly gentlyRm verifying /usr/local is an npm working directory
+477 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-cache.3
+478 silly gentlyRm /usr/local/share/man/man3/npm-cache.3.3 is being gently removed
+479 silly gentlyRm verifying /usr/local is an npm working directory
+480 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-commands.3
+481 silly gentlyRm /usr/local/share/man/man3/npm-commands.3.3 is being gently removed
+482 silly gentlyRm verifying /usr/local is an npm working directory
+483 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-config.3
+484 silly gentlyRm /usr/local/share/man/man3/npm-config.3.3 is being gently removed
+485 silly gentlyRm verifying /usr/local is an npm working directory
+486 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-deprecate.3
+487 silly gentlyRm /usr/local/share/man/man3/npm-deprecate.3.3 is being gently removed
+488 silly gentlyRm verifying /usr/local is an npm working directory
+489 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-docs.3
+490 silly gentlyRm /usr/local/share/man/man3/npm-docs.3.3 is being gently removed
+491 silly gentlyRm verifying /usr/local is an npm working directory
+492 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-edit.3
+493 silly gentlyRm /usr/local/share/man/man3/npm-edit.3.3 is being gently removed
+494 silly gentlyRm verifying /usr/local is an npm working directory
+495 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-explore.3
+496 silly gentlyRm /usr/local/share/man/man3/npm-explore.3.3 is being gently removed
+497 silly gentlyRm verifying /usr/local is an npm working directory
+498 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-help-search.3
+499 silly gentlyRm /usr/local/share/man/man3/npm-help-search.3.3 is being gently removed
+500 silly gentlyRm verifying /usr/local is an npm working directory
+501 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-init.3
+502 silly gentlyRm /usr/local/share/man/man3/npm-init.3.3 is being gently removed
+503 silly gentlyRm verifying /usr/local is an npm working directory
+504 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-install.3
+505 silly gentlyRm /usr/local/share/man/man3/npm-install.3.3 is being gently removed
+506 silly gentlyRm verifying /usr/local is an npm working directory
+507 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-link.3
+508 silly gentlyRm /usr/local/share/man/man3/npm-link.3.3 is being gently removed
+509 silly gentlyRm verifying /usr/local is an npm working directory
+510 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-load.3
+511 silly gentlyRm /usr/local/share/man/man3/npm-load.3.3 is being gently removed
+512 silly gentlyRm verifying /usr/local is an npm working directory
+513 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-ls.3
+514 silly gentlyRm /usr/local/share/man/man3/npm-ls.3.3 is being gently removed
+515 silly gentlyRm verifying /usr/local is an npm working directory
+516 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-outdated.3
+517 silly gentlyRm /usr/local/share/man/man3/npm-outdated.3.3 is being gently removed
+518 silly gentlyRm verifying /usr/local is an npm working directory
+519 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-owner.3
+520 silly gentlyRm /usr/local/share/man/man3/npm-owner.3.3 is being gently removed
+521 silly gentlyRm verifying /usr/local is an npm working directory
+522 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-pack.3
+523 silly gentlyRm /usr/local/share/man/man3/npm-pack.3.3 is being gently removed
+524 silly gentlyRm verifying /usr/local is an npm working directory
+525 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-prefix.3
+526 silly gentlyRm /usr/local/share/man/man3/npm-prefix.3.3 is being gently removed
+527 silly gentlyRm verifying /usr/local is an npm working directory
+528 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-prune.3
+529 silly gentlyRm /usr/local/share/man/man3/npm-prune.3.3 is being gently removed
+530 silly gentlyRm verifying /usr/local is an npm working directory
+531 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-publish.3
+532 silly gentlyRm /usr/local/share/man/man3/npm-publish.3.3 is being gently removed
+533 silly gentlyRm verifying /usr/local is an npm working directory
+534 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-rebuild.3
+535 silly gentlyRm /usr/local/share/man/man3/npm-rebuild.3.3 is being gently removed
+536 silly gentlyRm verifying /usr/local is an npm working directory
+537 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-repo.3
+538 silly gentlyRm /usr/local/share/man/man3/npm-repo.3.3 is being gently removed
+539 silly gentlyRm verifying /usr/local is an npm working directory
+540 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-restart.3
+541 silly gentlyRm /usr/local/share/man/man3/npm-restart.3.3 is being gently removed
+542 silly gentlyRm verifying /usr/local is an npm working directory
+543 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-root.3
+544 silly gentlyRm /usr/local/share/man/man3/npm-root.3.3 is being gently removed
+545 silly gentlyRm verifying /usr/local is an npm working directory
+546 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-run-script.3
+547 silly gentlyRm /usr/local/share/man/man3/npm-run-script.3.3 is being gently removed
+548 silly gentlyRm verifying /usr/local is an npm working directory
+549 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-search.3
+550 silly gentlyRm /usr/local/share/man/man3/npm-search.3.3 is being gently removed
+551 silly gentlyRm verifying /usr/local is an npm working directory
+552 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-shrinkwrap.3
+553 silly gentlyRm /usr/local/share/man/man3/npm-shrinkwrap.3.3 is being gently removed
+554 silly gentlyRm verifying /usr/local is an npm working directory
+555 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-start.3
+556 silly gentlyRm /usr/local/share/man/man3/npm-start.3.3 is being gently removed
+557 silly gentlyRm verifying /usr/local is an npm working directory
+558 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-stop.3
+559 silly gentlyRm /usr/local/share/man/man3/npm-stop.3.3 is being gently removed
+560 silly gentlyRm verifying /usr/local is an npm working directory
+561 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-submodule.3
+562 silly gentlyRm /usr/local/share/man/man3/npm-submodule.3.3 is being gently removed
+563 silly gentlyRm verifying /usr/local is an npm working directory
+564 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-tag.3
+565 silly gentlyRm /usr/local/share/man/man3/npm-tag.3.3 is being gently removed
+566 silly gentlyRm verifying /usr/local is an npm working directory
+567 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-test.3
+568 silly gentlyRm /usr/local/share/man/man3/npm-test.3.3 is being gently removed
+569 silly gentlyRm verifying /usr/local is an npm working directory
+570 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-uninstall.3
+571 silly gentlyRm /usr/local/share/man/man3/npm-uninstall.3.3 is being gently removed
+572 silly gentlyRm verifying /usr/local is an npm working directory
+573 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-unpublish.3
+574 silly gentlyRm /usr/local/share/man/man3/npm-unpublish.3.3 is being gently removed
+575 silly gentlyRm verifying /usr/local is an npm working directory
+576 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-update.3
+577 silly gentlyRm /usr/local/share/man/man3/npm-update.3.3 is being gently removed
+578 silly gentlyRm verifying /usr/local is an npm working directory
+579 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-version.3
+580 silly gentlyRm /usr/local/share/man/man3/npm-version.3.3 is being gently removed
+581 silly gentlyRm verifying /usr/local is an npm working directory
+582 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-view.3
+583 silly gentlyRm /usr/local/share/man/man3/npm-view.3.3 is being gently removed
+584 silly gentlyRm verifying /usr/local is an npm working directory
+585 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm-whoami.3
+586 silly gentlyRm /usr/local/share/man/man3/npm-whoami.3.3 is being gently removed
+587 silly gentlyRm verifying /usr/local is an npm working directory
+588 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man3/npm.3
+589 silly gentlyRm /usr/local/share/man/man3/npm.3.3 is being gently removed
+590 silly gentlyRm verifying /usr/local is an npm working directory
+591 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man5/npm-folders.5
+592 silly gentlyRm /usr/local/share/man/man5/npm-folders.5.5 is being gently removed
+593 silly gentlyRm verifying /usr/local is an npm working directory
+594 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man5/npm-global.5
+595 silly gentlyRm /usr/local/share/man/man5/npm-global.5.5 is being gently removed
+596 silly gentlyRm verifying /usr/local is an npm working directory
+597 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man5/npm-json.5
+598 silly gentlyRm /usr/local/share/man/man5/npm-json.5.5 is being gently removed
+599 silly gentlyRm verifying /usr/local is an npm working directory
+600 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man5/npmrc.5
+601 silly gentlyRm /usr/local/share/man/man5/npmrc.5.5 is being gently removed
+602 silly gentlyRm verifying /usr/local is an npm working directory
+603 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man5/package.json.5
+604 silly gentlyRm /usr/local/share/man/man5/npm-package.json.5.5 is being gently removed
+605 silly gentlyRm verifying /usr/local is an npm working directory
+606 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-coding-style.7
+607 silly gentlyRm /usr/local/share/man/man7/npm-coding-style.7.7 is being gently removed
+608 silly gentlyRm verifying /usr/local is an npm working directory
+609 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-config.7
+610 silly gentlyRm /usr/local/share/man/man7/npm-config.7.7 is being gently removed
+611 silly gentlyRm verifying /usr/local is an npm working directory
+612 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-developers.7
+613 silly gentlyRm /usr/local/share/man/man7/npm-developers.7.7 is being gently removed
+614 silly gentlyRm verifying /usr/local is an npm working directory
+615 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-disputes.7
+616 silly gentlyRm /usr/local/share/man/man7/npm-disputes.7.7 is being gently removed
+617 silly gentlyRm verifying /usr/local is an npm working directory
+618 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-faq.7
+619 silly gentlyRm /usr/local/share/man/man7/npm-faq.7.7 is being gently removed
+620 silly gentlyRm verifying /usr/local is an npm working directory
+621 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-index.7
+622 silly gentlyRm /usr/local/share/man/man7/npm-index.7.7 is being gently removed
+623 silly gentlyRm verifying /usr/local is an npm working directory
+624 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-registry.7
+625 silly gentlyRm /usr/local/share/man/man7/npm-registry.7.7 is being gently removed
+626 silly gentlyRm verifying /usr/local is an npm working directory
+627 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-scope.7
+628 silly gentlyRm /usr/local/share/man/man7/npm-scope.7.7 is being gently removed
+629 silly gentlyRm verifying /usr/local is an npm working directory
+630 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/npm-scripts.7
+631 silly gentlyRm /usr/local/share/man/man7/npm-scripts.7.7 is being gently removed
+632 silly gentlyRm verifying /usr/local is an npm working directory
+633 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/removing-npm.7
+634 silly gentlyRm /usr/local/share/man/man7/npm-removing-npm.7.7 is being gently removed
+635 silly gentlyRm verifying /usr/local is an npm working directory
+636 silly rmMan preparing to remove /usr/local/lib/node_modules/npm/man/man7/semver.7
+637 silly gentlyRm /usr/local/share/man/man7/npm-semver.7.7 is being gently removed
+638 silly gentlyRm verifying /usr/local is an npm working directory
+639 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+640 silly gentlyRm deletion target /usr/local/bin/npm is under /usr/local
+641 verbose gentlyRm vacuuming from /usr/local/bin/npm up to /usr/local
+642 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+643 silly gentlyRm deletion target /usr/local/share/man/man1/npm-access.1.1 is under /usr/local
+644 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-access.1.1 up to /usr/local
+645 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+646 silly gentlyRm deletion target /usr/local/share/man/man1/npm-adduser.1.1 is under /usr/local
+647 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-adduser.1.1 up to /usr/local
+648 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+649 silly gentlyRm deletion target /usr/local/share/man/man1/npm-bin.1.1 is under /usr/local
+650 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-bin.1.1 up to /usr/local
+651 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+652 silly gentlyRm deletion target /usr/local/share/man/man1/npm-bugs.1.1 is under /usr/local
+653 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-bugs.1.1 up to /usr/local
+654 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+655 silly gentlyRm deletion target /usr/local/share/man/man1/npm-build.1.1 is under /usr/local
+656 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-build.1.1 up to /usr/local
+657 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+658 silly gentlyRm deletion target /usr/local/share/man/man1/npm-bundle.1.1 is under /usr/local
+659 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-bundle.1.1 up to /usr/local
+660 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+661 silly gentlyRm deletion target /usr/local/share/man/man1/npm-cache.1.1 is under /usr/local
+662 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-cache.1.1 up to /usr/local
+663 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+664 silly gentlyRm deletion target /usr/local/share/man/man1/npm-completion.1.1 is under /usr/local
+665 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-completion.1.1 up to /usr/local
+666 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+667 silly gentlyRm deletion target /usr/local/share/man/man1/npm-config.1.1 is under /usr/local
+668 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-config.1.1 up to /usr/local
+669 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+670 silly gentlyRm deletion target /usr/local/share/man/man1/npm-dedupe.1.1 is under /usr/local
+671 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-dedupe.1.1 up to /usr/local
+672 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+673 silly gentlyRm deletion target /usr/local/share/man/man1/npm-deprecate.1.1 is under /usr/local
+674 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-deprecate.1.1 up to /usr/local
+675 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+676 silly gentlyRm deletion target /usr/local/share/man/man1/npm-dist-tag.1.1 is under /usr/local
+677 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-dist-tag.1.1 up to /usr/local
+678 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+679 silly gentlyRm deletion target /usr/local/share/man/man1/npm-docs.1.1 is under /usr/local
+680 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-docs.1.1 up to /usr/local
+681 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+682 silly gentlyRm deletion target /usr/local/share/man/man1/npm-edit.1.1 is under /usr/local
+683 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-edit.1.1 up to /usr/local
+684 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+685 silly gentlyRm deletion target /usr/local/share/man/man1/npm-explore.1.1 is under /usr/local
+686 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-explore.1.1 up to /usr/local
+687 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+688 silly gentlyRm deletion target /usr/local/share/man/man1/npm-help-search.1.1 is under /usr/local
+689 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-help-search.1.1 up to /usr/local
+690 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+691 silly gentlyRm deletion target /usr/local/share/man/man1/npm-help.1.1 is under /usr/local
+692 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-help.1.1 up to /usr/local
+693 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+694 silly gentlyRm deletion target /usr/local/share/man/man1/npm-init.1.1 is under /usr/local
+695 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-init.1.1 up to /usr/local
+696 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+697 silly gentlyRm deletion target /usr/local/share/man/man1/npm-install.1.1 is under /usr/local
+698 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-install.1.1 up to /usr/local
+699 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+700 silly gentlyRm deletion target /usr/local/share/man/man1/npm-link.1.1 is under /usr/local
+701 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-link.1.1 up to /usr/local
+702 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+703 silly gentlyRm deletion target /usr/local/share/man/man1/npm-logout.1.1 is under /usr/local
+704 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-logout.1.1 up to /usr/local
+705 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+706 silly gentlyRm deletion target /usr/local/share/man/man1/npm-ls.1.1 is under /usr/local
+707 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-ls.1.1 up to /usr/local
+708 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+709 silly gentlyRm deletion target /usr/local/share/man/man1/npm-outdated.1.1 is under /usr/local
+710 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-outdated.1.1 up to /usr/local
+711 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+712 silly gentlyRm deletion target /usr/local/share/man/man1/npm-owner.1.1 is under /usr/local
+713 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-owner.1.1 up to /usr/local
+714 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+715 silly gentlyRm deletion target /usr/local/share/man/man1/npm-pack.1.1 is under /usr/local
+716 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-pack.1.1 up to /usr/local
+717 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+718 silly gentlyRm deletion target /usr/local/share/man/man1/npm-prefix.1.1 is under /usr/local
+719 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-prefix.1.1 up to /usr/local
+720 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+721 silly gentlyRm deletion target /usr/local/share/man/man1/npm-prune.1.1 is under /usr/local
+722 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-prune.1.1 up to /usr/local
+723 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+724 silly gentlyRm deletion target /usr/local/share/man/man1/npm-publish.1.1 is under /usr/local
+725 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-publish.1.1 up to /usr/local
+726 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+727 silly gentlyRm deletion target /usr/local/share/man/man1/npm-README.1.1 is under /usr/local
+728 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-README.1.1 up to /usr/local
+729 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+730 silly gentlyRm deletion target /usr/local/share/man/man1/npm-rebuild.1.1 is under /usr/local
+731 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-rebuild.1.1 up to /usr/local
+732 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+733 silly gentlyRm deletion target /usr/local/share/man/man1/npm-repo.1.1 is under /usr/local
+734 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-repo.1.1 up to /usr/local
+735 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+736 silly gentlyRm deletion target /usr/local/share/man/man1/npm-restart.1.1 is under /usr/local
+737 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-restart.1.1 up to /usr/local
+738 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+739 silly gentlyRm deletion target /usr/local/share/man/man1/npm-rm.1.1 is under /usr/local
+740 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-rm.1.1 up to /usr/local
+741 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+742 silly gentlyRm deletion target /usr/local/share/man/man1/npm-root.1.1 is under /usr/local
+743 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-root.1.1 up to /usr/local
+744 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+745 silly gentlyRm deletion target /usr/local/share/man/man1/npm-run-script.1.1 is under /usr/local
+746 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-run-script.1.1 up to /usr/local
+747 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+748 silly gentlyRm deletion target /usr/local/share/man/man1/npm-search.1.1 is under /usr/local
+749 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-search.1.1 up to /usr/local
+750 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+751 silly gentlyRm deletion target /usr/local/share/man/man1/npm-shrinkwrap.1.1 is under /usr/local
+752 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-shrinkwrap.1.1 up to /usr/local
+753 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+754 silly gentlyRm deletion target /usr/local/share/man/man1/npm-star.1.1 is under /usr/local
+755 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-star.1.1 up to /usr/local
+756 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+757 silly gentlyRm deletion target /usr/local/share/man/man1/npm-stars.1.1 is under /usr/local
+758 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-stars.1.1 up to /usr/local
+759 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+760 silly gentlyRm deletion target /usr/local/share/man/man1/npm-start.1.1 is under /usr/local
+761 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-start.1.1 up to /usr/local
+762 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+763 silly gentlyRm deletion target /usr/local/share/man/man1/npm-stop.1.1 is under /usr/local
+764 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-stop.1.1 up to /usr/local
+765 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+766 silly gentlyRm deletion target /usr/local/share/man/man1/npm-submodule.1.1 is under /usr/local
+767 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-submodule.1.1 up to /usr/local
+768 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+769 silly gentlyRm deletion target /usr/local/share/man/man1/npm-tag.1.1 is under /usr/local
+770 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-tag.1.1 up to /usr/local
+771 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+772 silly gentlyRm deletion target /usr/local/share/man/man1/npm-test.1.1 is under /usr/local
+773 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-test.1.1 up to /usr/local
+774 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+775 silly gentlyRm deletion target /usr/local/share/man/man1/npm-uninstall.1.1 is under /usr/local
+776 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-uninstall.1.1 up to /usr/local
+777 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+778 silly gentlyRm deletion target /usr/local/share/man/man1/npm-unpublish.1.1 is under /usr/local
+779 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-unpublish.1.1 up to /usr/local
+780 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+781 silly gentlyRm deletion target /usr/local/share/man/man1/npm-update.1.1 is under /usr/local
+782 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-update.1.1 up to /usr/local
+783 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+784 silly gentlyRm deletion target /usr/local/share/man/man1/npm-version.1.1 is under /usr/local
+785 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-version.1.1 up to /usr/local
+786 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+787 silly gentlyRm deletion target /usr/local/share/man/man1/npm-view.1.1 is under /usr/local
+788 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-view.1.1 up to /usr/local
+789 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+790 silly gentlyRm deletion target /usr/local/share/man/man1/npm-whoami.1.1 is under /usr/local
+791 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm-whoami.1.1 up to /usr/local
+792 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+793 silly gentlyRm deletion target /usr/local/share/man/man1/npm.1.1 is under /usr/local
+794 verbose gentlyRm vacuuming from /usr/local/share/man/man1/npm.1.1 up to /usr/local
+795 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+796 silly gentlyRm deletion target /usr/local/share/man/man3/npm-bin.3.3 is under /usr/local
+797 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-bin.3.3 up to /usr/local
+798 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+799 silly gentlyRm deletion target /usr/local/share/man/man3/npm-bugs.3.3 is under /usr/local
+800 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-bugs.3.3 up to /usr/local
+801 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+802 silly gentlyRm deletion target /usr/local/share/man/man3/npm-cache.3.3 is under /usr/local
+803 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-cache.3.3 up to /usr/local
+804 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+805 silly gentlyRm deletion target /usr/local/share/man/man3/npm-commands.3.3 is under /usr/local
+806 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-commands.3.3 up to /usr/local
+807 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+808 silly gentlyRm deletion target /usr/local/share/man/man3/npm-config.3.3 is under /usr/local
+809 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-config.3.3 up to /usr/local
+810 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+811 silly gentlyRm deletion target /usr/local/share/man/man3/npm-deprecate.3.3 is under /usr/local
+812 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-deprecate.3.3 up to /usr/local
+813 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+814 silly gentlyRm deletion target /usr/local/share/man/man3/npm-docs.3.3 is under /usr/local
+815 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-docs.3.3 up to /usr/local
+816 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+817 silly gentlyRm deletion target /usr/local/share/man/man3/npm-edit.3.3 is under /usr/local
+818 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-edit.3.3 up to /usr/local
+819 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+820 silly gentlyRm deletion target /usr/local/share/man/man3/npm-explore.3.3 is under /usr/local
+821 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-explore.3.3 up to /usr/local
+822 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+823 silly gentlyRm deletion target /usr/local/share/man/man3/npm-help-search.3.3 is under /usr/local
+824 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-help-search.3.3 up to /usr/local
+825 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+826 silly gentlyRm deletion target /usr/local/share/man/man3/npm-init.3.3 is under /usr/local
+827 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-init.3.3 up to /usr/local
+828 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+829 silly gentlyRm deletion target /usr/local/share/man/man3/npm-install.3.3 is under /usr/local
+830 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-install.3.3 up to /usr/local
+831 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+832 silly gentlyRm deletion target /usr/local/share/man/man3/npm-link.3.3 is under /usr/local
+833 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-link.3.3 up to /usr/local
+834 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+835 silly gentlyRm deletion target /usr/local/share/man/man3/npm-load.3.3 is under /usr/local
+836 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-load.3.3 up to /usr/local
+837 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+838 silly gentlyRm deletion target /usr/local/share/man/man3/npm-ls.3.3 is under /usr/local
+839 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-ls.3.3 up to /usr/local
+840 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+841 silly gentlyRm deletion target /usr/local/share/man/man3/npm-outdated.3.3 is under /usr/local
+842 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-outdated.3.3 up to /usr/local
+843 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+844 silly gentlyRm deletion target /usr/local/share/man/man3/npm-owner.3.3 is under /usr/local
+845 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-owner.3.3 up to /usr/local
+846 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+847 silly gentlyRm deletion target /usr/local/share/man/man3/npm-pack.3.3 is under /usr/local
+848 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-pack.3.3 up to /usr/local
+849 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+850 silly gentlyRm deletion target /usr/local/share/man/man3/npm-prefix.3.3 is under /usr/local
+851 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-prefix.3.3 up to /usr/local
+852 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+853 silly gentlyRm deletion target /usr/local/share/man/man3/npm-prune.3.3 is under /usr/local
+854 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-prune.3.3 up to /usr/local
+855 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+856 silly gentlyRm deletion target /usr/local/share/man/man3/npm-publish.3.3 is under /usr/local
+857 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-publish.3.3 up to /usr/local
+858 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+859 silly gentlyRm deletion target /usr/local/share/man/man3/npm-rebuild.3.3 is under /usr/local
+860 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-rebuild.3.3 up to /usr/local
+861 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+862 silly gentlyRm deletion target /usr/local/share/man/man3/npm-repo.3.3 is under /usr/local
+863 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-repo.3.3 up to /usr/local
+864 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+865 silly gentlyRm deletion target /usr/local/share/man/man3/npm-restart.3.3 is under /usr/local
+866 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-restart.3.3 up to /usr/local
+867 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+868 silly gentlyRm deletion target /usr/local/share/man/man3/npm-root.3.3 is under /usr/local
+869 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-root.3.3 up to /usr/local
+870 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+871 silly gentlyRm deletion target /usr/local/share/man/man3/npm-run-script.3.3 is under /usr/local
+872 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-run-script.3.3 up to /usr/local
+873 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+874 silly gentlyRm deletion target /usr/local/share/man/man3/npm-search.3.3 is under /usr/local
+875 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-search.3.3 up to /usr/local
+876 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+877 silly gentlyRm deletion target /usr/local/share/man/man3/npm-shrinkwrap.3.3 is under /usr/local
+878 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-shrinkwrap.3.3 up to /usr/local
+879 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+880 silly gentlyRm deletion target /usr/local/share/man/man3/npm-start.3.3 is under /usr/local
+881 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-start.3.3 up to /usr/local
+882 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+883 silly gentlyRm deletion target /usr/local/share/man/man3/npm-stop.3.3 is under /usr/local
+884 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-stop.3.3 up to /usr/local
+885 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+886 silly gentlyRm deletion target /usr/local/share/man/man3/npm-submodule.3.3 is under /usr/local
+887 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-submodule.3.3 up to /usr/local
+888 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+889 silly gentlyRm deletion target /usr/local/share/man/man3/npm-tag.3.3 is under /usr/local
+890 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-tag.3.3 up to /usr/local
+891 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+892 silly gentlyRm deletion target /usr/local/share/man/man3/npm-test.3.3 is under /usr/local
+893 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-test.3.3 up to /usr/local
+894 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+895 silly gentlyRm deletion target /usr/local/share/man/man3/npm-uninstall.3.3 is under /usr/local
+896 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-uninstall.3.3 up to /usr/local
+897 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+898 silly gentlyRm deletion target /usr/local/share/man/man3/npm-unpublish.3.3 is under /usr/local
+899 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-unpublish.3.3 up to /usr/local
+900 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+901 silly gentlyRm deletion target /usr/local/share/man/man3/npm-update.3.3 is under /usr/local
+902 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-update.3.3 up to /usr/local
+903 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+904 silly gentlyRm deletion target /usr/local/share/man/man3/npm-version.3.3 is under /usr/local
+905 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-version.3.3 up to /usr/local
+906 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+907 silly gentlyRm deletion target /usr/local/share/man/man3/npm-view.3.3 is under /usr/local
+908 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-view.3.3 up to /usr/local
+909 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+910 silly gentlyRm deletion target /usr/local/share/man/man3/npm-whoami.3.3 is under /usr/local
+911 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm-whoami.3.3 up to /usr/local
+912 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+913 silly gentlyRm deletion target /usr/local/share/man/man3/npm.3.3 is under /usr/local
+914 verbose gentlyRm vacuuming from /usr/local/share/man/man3/npm.3.3 up to /usr/local
+915 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+916 silly gentlyRm deletion target /usr/local/share/man/man5/npm-folders.5.5 is under /usr/local
+917 verbose gentlyRm vacuuming from /usr/local/share/man/man5/npm-folders.5.5 up to /usr/local
+918 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+919 silly gentlyRm deletion target /usr/local/share/man/man5/npm-global.5.5 is under /usr/local
+920 verbose gentlyRm vacuuming from /usr/local/share/man/man5/npm-global.5.5 up to /usr/local
+921 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+922 silly gentlyRm deletion target /usr/local/share/man/man5/npm-json.5.5 is under /usr/local
+923 verbose gentlyRm vacuuming from /usr/local/share/man/man5/npm-json.5.5 up to /usr/local
+924 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+925 silly gentlyRm deletion target /usr/local/share/man/man5/npmrc.5.5 is under /usr/local
+926 verbose gentlyRm vacuuming from /usr/local/share/man/man5/npmrc.5.5 up to /usr/local
+927 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+928 silly gentlyRm deletion target /usr/local/share/man/man5/npm-package.json.5.5 is under /usr/local
+929 verbose gentlyRm vacuuming from /usr/local/share/man/man5/npm-package.json.5.5 up to /usr/local
+930 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+931 silly gentlyRm deletion target /usr/local/share/man/man7/npm-coding-style.7.7 is under /usr/local
+932 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-coding-style.7.7 up to /usr/local
+933 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+934 silly gentlyRm deletion target /usr/local/share/man/man7/npm-config.7.7 is under /usr/local
+935 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-config.7.7 up to /usr/local
+936 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+937 silly gentlyRm deletion target /usr/local/share/man/man7/npm-developers.7.7 is under /usr/local
+938 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-developers.7.7 up to /usr/local
+939 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+940 silly gentlyRm deletion target /usr/local/share/man/man7/npm-disputes.7.7 is under /usr/local
+941 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-disputes.7.7 up to /usr/local
+942 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+943 silly gentlyRm deletion target /usr/local/share/man/man7/npm-faq.7.7 is under /usr/local
+944 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-faq.7.7 up to /usr/local
+945 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+946 silly gentlyRm deletion target /usr/local/share/man/man7/npm-index.7.7 is under /usr/local
+947 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-index.7.7 up to /usr/local
+948 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+949 silly gentlyRm deletion target /usr/local/share/man/man7/npm-registry.7.7 is under /usr/local
+950 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-registry.7.7 up to /usr/local
+951 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+952 silly gentlyRm deletion target /usr/local/share/man/man7/npm-scope.7.7 is under /usr/local
+953 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-scope.7.7 up to /usr/local
+954 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+955 silly gentlyRm deletion target /usr/local/share/man/man7/npm-scripts.7.7 is under /usr/local
+956 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-scripts.7.7 up to /usr/local
+957 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+958 silly gentlyRm deletion target /usr/local/share/man/man7/npm-removing-npm.7.7 is under /usr/local
+959 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-removing-npm.7.7 up to /usr/local
+960 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+961 silly gentlyRm deletion target /usr/local/share/man/man7/npm-semver.7.7 is under /usr/local
+962 verbose gentlyRm vacuuming from /usr/local/share/man/man7/npm-semver.7.7 up to /usr/local
+963 silly vacuum-fs removing /usr/local/bin/npm
+964 silly vacuum-fs quitting because other entries in /usr/local/bin
+965 info postuninstall npm@2.11.3
+966 silly gentlyRm /usr/local/lib/node_modules/npm is being purged from base /usr/local
+967 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/npm
+968 silly vacuum-fs purging /usr/local/lib/node_modules/npm
+969 verbose unlock done using /Users/wifi/.npm/_locks/npm-8bd9e7c51388758c.lock for /usr/local/lib/node_modules/npm
+970 verbose stack Error: EACCES, rmdir '/usr/local/lib/node_modules/mean-cli'
+970 verbose stack     at Error (native)
+971 verbose cwd /Users/wifi/Desktop/react-university
+972 error Darwin 15.0.0
+973 error argv "node" "/usr/local/bin/npm" "update" "-g"
+974 error node v0.12.7
+975 error npm  v2.11.3
+976 error path /usr/local/lib/node_modules/mean-cli
+977 error code EACCES
+978 error errno -13
+979 error Error: EACCES, rmdir '/usr/local/lib/node_modules/mean-cli'
+979 error     at Error (native)
+979 error  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/mean-cli']
+979 error   errno: -13,
+979 error   code: 'EACCES',
+979 error   path: '/usr/local/lib/node_modules/mean-cli' }
+980 error Please try running this command again as root/Administrator.
+981 verbose exit [ -13, true ]
+982 verbose unbuild lib/node_modules/mean-cli
+983 info preuninstall mean-cli@0.10.14
+984 info uninstall mean-cli@0.10.14
+985 verbose unbuild rmStuff mean-cli@0.10.14 from /usr/local/lib/node_modules
+986 silly gentlyRm /usr/local/bin/mean is being gently removed
+987 silly gentlyRm verifying /usr/local is an npm working directory
+988 silly gentlyRm /usr/local/bin/mean-init is being gently removed
+989 silly gentlyRm verifying /usr/local is an npm working directory
+990 silly gentlyRm /usr/local/bin/mean-authorize is being gently removed
+991 silly gentlyRm verifying /usr/local is an npm working directory
+992 silly gentlyRm /usr/local/bin/mean-whoami is being gently removed
+993 silly gentlyRm verifying /usr/local is an npm working directory
+994 silly gentlyRm /usr/local/bin/mean-login is being gently removed
+995 silly gentlyRm verifying /usr/local is an npm working directory
+996 silly gentlyRm /usr/local/bin/mean-addKey is being gently removed
+997 silly gentlyRm verifying /usr/local is an npm working directory
+998 silly gentlyRm /usr/local/bin/mean-publish is being gently removed
+999 silly gentlyRm verifying /usr/local is an npm working directory
+1000 silly gentlyRm /usr/local/bin/mean-search is being gently removed
+1001 silly gentlyRm verifying /usr/local is an npm working directory
+1002 silly gentlyRm /usr/local/bin/mean-deploy is being gently removed
+1003 silly gentlyRm verifying /usr/local is an npm working directory
+1004 silly gentlyRm /usr/local/bin/mean-logs is being gently removed
+1005 silly gentlyRm verifying /usr/local is an npm working directory
+1006 silly gentlyRm /usr/local/bin/mean-register is being gently removed
+1007 silly gentlyRm verifying /usr/local is an npm working directory
+1008 silly gentlyRm /usr/local/bin/mean-postinstall is being gently removed
+1009 silly gentlyRm verifying /usr/local is an npm working directory
+1010 silly gentlyRm /usr/local/bin/mean-preinstall is being gently removed
+1011 silly gentlyRm verifying /usr/local is an npm working directory
+1012 silly gentlyRm /usr/local/bin/mean-install is being gently removed
+1013 silly gentlyRm verifying /usr/local is an npm working directory
+1014 silly gentlyRm /usr/local/bin/mean-uninstall is being gently removed
+1015 silly gentlyRm verifying /usr/local is an npm working directory
+1016 silly gentlyRm /usr/local/bin/mean-docs is being gently removed
+1017 silly gentlyRm verifying /usr/local is an npm working directory
+1018 silly gentlyRm /usr/local/bin/mean-package is being gently removed
+1019 silly gentlyRm verifying /usr/local is an npm working directory
+1020 silly gentlyRm /usr/local/bin/mean-list is being gently removed
+1021 silly gentlyRm verifying /usr/local is an npm working directory
+1022 silly gentlyRm /usr/local/bin/mean-status is being gently removed
+1023 silly gentlyRm verifying /usr/local is an npm working directory
+1024 silly gentlyRm /usr/local/bin/mean-user is being gently removed
+1025 silly gentlyRm verifying /usr/local is an npm working directory
+1026 silly gentlyRm /usr/local/bin/mean-logout is being gently removed
+1027 silly gentlyRm verifying /usr/local is an npm working directory
+1028 silly gentlyRm /usr/local/bin/mean-disable is being gently removed
+1029 silly gentlyRm verifying /usr/local is an npm working directory
+1030 silly gentlyRm /usr/local/bin/mean-enable is being gently removed
+1031 silly gentlyRm verifying /usr/local is an npm working directory
+1032 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1033 silly gentlyRm deletion target /usr/local/bin/mean is under /usr/local
+1034 verbose gentlyRm vacuuming from /usr/local/bin/mean up to /usr/local
+1035 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1036 silly gentlyRm deletion target /usr/local/bin/mean-init is under /usr/local
+1037 verbose gentlyRm vacuuming from /usr/local/bin/mean-init up to /usr/local
+1038 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1039 silly gentlyRm deletion target /usr/local/bin/mean-authorize is under /usr/local
+1040 verbose gentlyRm vacuuming from /usr/local/bin/mean-authorize up to /usr/local
+1041 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1042 silly gentlyRm deletion target /usr/local/bin/mean-whoami is under /usr/local
+1043 verbose gentlyRm vacuuming from /usr/local/bin/mean-whoami up to /usr/local
+1044 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1045 silly gentlyRm deletion target /usr/local/bin/mean-login is under /usr/local
+1046 verbose gentlyRm vacuuming from /usr/local/bin/mean-login up to /usr/local
+1047 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1048 silly gentlyRm deletion target /usr/local/bin/mean-addKey is under /usr/local
+1049 verbose gentlyRm vacuuming from /usr/local/bin/mean-addKey up to /usr/local
+1050 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1051 silly gentlyRm deletion target /usr/local/bin/mean-publish is under /usr/local
+1052 verbose gentlyRm vacuuming from /usr/local/bin/mean-publish up to /usr/local
+1053 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1054 silly gentlyRm deletion target /usr/local/bin/mean-search is under /usr/local
+1055 verbose gentlyRm vacuuming from /usr/local/bin/mean-search up to /usr/local
+1056 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1057 silly gentlyRm deletion target /usr/local/bin/mean-deploy is under /usr/local
+1058 verbose gentlyRm vacuuming from /usr/local/bin/mean-deploy up to /usr/local
+1059 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1060 silly gentlyRm deletion target /usr/local/bin/mean-logs is under /usr/local
+1061 verbose gentlyRm vacuuming from /usr/local/bin/mean-logs up to /usr/local
+1062 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1063 silly gentlyRm deletion target /usr/local/bin/mean-register is under /usr/local
+1064 verbose gentlyRm vacuuming from /usr/local/bin/mean-register up to /usr/local
+1065 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1066 silly gentlyRm deletion target /usr/local/bin/mean-postinstall is under /usr/local
+1067 verbose gentlyRm vacuuming from /usr/local/bin/mean-postinstall up to /usr/local
+1068 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1069 silly gentlyRm deletion target /usr/local/bin/mean-preinstall is under /usr/local
+1070 verbose gentlyRm vacuuming from /usr/local/bin/mean-preinstall up to /usr/local
+1071 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1072 silly gentlyRm deletion target /usr/local/bin/mean-install is under /usr/local
+1073 verbose gentlyRm vacuuming from /usr/local/bin/mean-install up to /usr/local
+1074 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1075 silly gentlyRm deletion target /usr/local/bin/mean-uninstall is under /usr/local
+1076 verbose gentlyRm vacuuming from /usr/local/bin/mean-uninstall up to /usr/local
+1077 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1078 silly gentlyRm deletion target /usr/local/bin/mean-docs is under /usr/local
+1079 verbose gentlyRm vacuuming from /usr/local/bin/mean-docs up to /usr/local
+1080 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1081 silly gentlyRm deletion target /usr/local/bin/mean-package is under /usr/local
+1082 verbose gentlyRm vacuuming from /usr/local/bin/mean-package up to /usr/local
+1083 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1084 silly gentlyRm deletion target /usr/local/bin/mean-list is under /usr/local
+1085 verbose gentlyRm vacuuming from /usr/local/bin/mean-list up to /usr/local
+1086 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1087 silly gentlyRm deletion target /usr/local/bin/mean-status is under /usr/local
+1088 verbose gentlyRm vacuuming from /usr/local/bin/mean-status up to /usr/local
+1089 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1090 silly gentlyRm deletion target /usr/local/bin/mean-user is under /usr/local
+1091 verbose gentlyRm vacuuming from /usr/local/bin/mean-user up to /usr/local
+1092 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1093 silly gentlyRm deletion target /usr/local/bin/mean-logout is under /usr/local
+1094 verbose gentlyRm vacuuming from /usr/local/bin/mean-logout up to /usr/local
+1095 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1096 silly gentlyRm deletion target /usr/local/bin/mean-disable is under /usr/local
+1097 verbose gentlyRm vacuuming from /usr/local/bin/mean-disable up to /usr/local
+1098 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+1099 silly gentlyRm deletion target /usr/local/bin/mean-enable is under /usr/local
+1100 verbose gentlyRm vacuuming from /usr/local/bin/mean-enable up to /usr/local
+1101 info postuninstall mean-cli@0.10.14
+1102 silly gentlyRm /usr/local/lib/node_modules/mean-cli is being purged from base /usr/local
+1103 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mean-cli
+1104 silly vacuum-fs purging /usr/local/lib/node_modules/mean-cli
+1105 error error rolling back Error: EACCES, rmdir '/usr/local/lib/node_modules/mean-cli'
+1105 error error rolling back     at Error (native)
+1105 error error rolling back  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/mean-cli']
+1105 error error rolling back   errno: -13,
+1105 error error rolling back   code: 'EACCES',
+1105 error error rolling back   path: '/usr/local/lib/node_modules/mean-cli' }
